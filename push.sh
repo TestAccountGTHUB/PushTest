@@ -11,7 +11,7 @@ commit_website_files() {
 }
 
 upload_files() {
-  git push
+  git push origin master
 }
 
 setup_git
