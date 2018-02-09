@@ -1,0 +1,8 @@
+language: java
+jdk: oraclejdk8
+
+script:
+- ls
+- mkdir Test
+- chmod +x ./push.sh
+- bash ./push.sh
